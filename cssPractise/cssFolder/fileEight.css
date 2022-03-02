@@ -1,0 +1,88 @@
+/* mastering calculation in css Solved potter */
+
+
+/* we have fucken five elements  */
+
+
+/* background-color: cornflowerblue;
+    margin-left: 2%;
+    width: calc(88% / 5);
+    display: inline-block;
+     */
+
+
+/* last thing we need to see uaAmer  */
+
+
+/* div {
+    display: inline-block;
+    background-color: coral;
+    margin-left: 5px;
+    width: calc( (100% - 30px) / 5);
+} */
+
+.amer-opacity {
+    opacity: 0.4;
+    height: 50px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.amer-background {
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(244 44 120 / 0.3);
+    /* so This is the small hint when we are going to use opacity we shouldn't put colon */
+}
+
+.amer-relative {
+    display: inline-block;
+    /* That means we need to leave exactly 50px from right side */
+    right: 50px;
+    padding: 0px;
+    position: relative;
+    margin: 0px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    left: 82px;
+    bottom: 55px;
+    top: 40px;
+}
+
+body {
+    /* position: relative; */
+    width: 1000px;
+    height: 1000px;
+}
+
+
+/* .amer-test {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background-color: khaki;
+    position: relative;
+} */
+
+.amer-absolute {
+    display: inline-block;
+    right: 50px;
+    bottom: 50px;
+    top: 0;
+    position: fixed;
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+    background: rgb(244 44 120 / 0.3);
+    width: 200px;
+    height: 100px;
+}
+
+.amer-sticky {
+    background-color: red;
+    width: fit-content;
+    height: 300px;
+    position: sticky;
+    bottom: 20px;
+}

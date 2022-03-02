@@ -1,0 +1,8 @@
+@media (max-width:5000px)and (min-width:1000px) {
+    .parent>div {
+        font-size: 50px;
+        color: brown;
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,48 @@
+/* now we are going to see what is the grid is yaamer 
+so now we need to see how we will write the columns
+and rows uaAmer
+we have three ways to do this uaAmer
+[auto pixles percentage repeat mix]
+and this way is used for rows too
+--now we need to see what is the grid-rows are ua Amer
+*/
+
+
+/*
+div {
+    display: grid;
+    width: 600px;
+    background-color: #EEE;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 50px 25% auto;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(2, 50px) 100px repeat(3, 60px);
+    grid-template-columns: 100px 100px 100px 1fr, 1fr, 1f;
+
+grid-template-columns: 100px 100px 1fr 1fr;
+grid-template-rows: 100px 300px 500px;
+gap: 10px 20px;
+
+}
+*/
+
+.parent {
+    display: grid;
+    width: 600px;
+    height: 500px;
+    background-color: #eee;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 100px);
+    align-content: flex-end;
+}
+
+.amer-box {
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 2px;
+    justify-content: flex-end;
+}

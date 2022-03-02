@@ -1,0 +1,172 @@
+/* now we need to test the selectors uaAmer */
+
+
+/*
+p {
+    color: red;
+}
+
+.MOclass {
+    background-color: hotpink;
+}
+
+#find {
+    color: orange;
+}
+
+.parent .child {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: mediumblue;
+}
+
+.parent div {
+    background-color: mediumspringgreen;
+}
+
+.second-parent div,
+.second-parent p {
+    color: navy;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.title {
+    color: blue;
+}
+
+.reference>.child {
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+} */
+
+
+/* ===========part 2 of selectors reference =========*/
+
+
+/* div+p {
+    color: rgb(19, 19, 209);
+} */
+
+
+/* p~div {
+    color: red;
+}
+
+p+div {
+    color: lawngreen;
+}
+
+[title] {
+    color: blue;
+}
+
+div[title] {
+    color: blueviolet
+}
+
+p[title="mohamedTitle"] {
+    background-color: coral;
+}
+
+div[title~="contains"] {
+    color: cyan;
+}
+
+p[title*="String just"] {
+    color: red;
+}
+
+div[title ^="Hello the world"] {
+    color: yellow;
+}
+================ part 3 of selectors uaAmer===========
+*/
+
+
+/* p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: saddlebrown;
+}
+
+p:first-of-type {
+    color: royalblue;
+}
+
+div:first-of-type {
+    color: sienna;
+}
+
+span:only-child {
+    color: red;
+}
+
+p:only-of-type {
+    color: mediumseagreen;
+}
+=======================part 4==================
+*/
+
+
+/*
+p:not(:last-child) {
+    color: navy;
+}
+
+p:not(.special) {
+    background-color: teal;
+}
+
+P:nth-child(4) {
+    background-color: orangered;
+}
+
+p:nth-child(5) {
+    background-color: orchid;
+}
+
+p:nth-of-type(5) {
+    background-color: peru;
+}
+
+p:nth-last-child(3) {
+    background-color: red;
+}
+=============part 5==============
+*/
+
+div:empty {
+    width: 10px;
+    height: 10px;
+    background-color: salmon
+}
+
+input:disabled {
+    background-color: seagreen;
+}
+
+input:required+span {
+    background-color: snow;
+    color: red;
+}
+
+input:required+span::after {
+    content: '*';
+    color: red;
+    background-color: white;
+}
+
+
+/* input:focus {
+    border-radius: 30%;
+    border: 2px solid red;
+} */

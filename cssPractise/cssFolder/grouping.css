@@ -1,0 +1,22 @@
+.one,
+.two,
+.three,
+.four {
+    border-bottom: dashed 2px red;
+    background-color: gold;
+    font-size: x-large;
+    padding: 20px;
+    margin: 20px;
+}
+
+.one {
+    background-color: rosybrown;
+}
+
+.two {
+    background-color: grey;
+}
+
+.three {
+    background-color: salmon;
+}

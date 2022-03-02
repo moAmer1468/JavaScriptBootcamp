@@ -1,0 +1,110 @@
+/* div {
+    background-color: deeppink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    animation-name: mo-animation;
+    animation-duration: 7s;
+    animation-fill-mode: backwards;
+    animation: mo-animation 4s linear 3s 5 alternate;
+}
+
+div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes amer-animation {
+    from {
+        background-color: tomato;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes mo-animation {
+    0% {
+        background-color: yellow;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: black;
+    }
+    75% {
+        background-color: green
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+.spinner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: rgb(146, 123, 123);
+    border: 5px solid black;
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation-duration: 2s;
+    animation-name: spin;
+    animation-iteration-count: 2s;
+    transition: 0.3s;
+    animation-direction: alternate;
+    animation-delay: -2s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+
+/*
+.animation-up-down div {
+    margin: 50px auto;
+    display: inline-block;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-name: up-down;
+    animation-iteration-count: 5;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes up-down {
+    0% {
+        opacity: 1;
+        transform: translateY(-50px);
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
+
+.animation-up-down .one {
+    animation-delay: .3s;
+}
+
+.animation-up-down .two {
+    animation-delay: .6s;
+}
+
+.animation-up-down .three {
+    animation-delay: .9s;
+} */

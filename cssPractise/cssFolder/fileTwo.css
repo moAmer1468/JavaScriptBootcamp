@@ -1,0 +1,36 @@
+.second-mission {
+    background-repeat: no-repeat;
+    /* you can but the repeation on the the x axis or on the y-axis */
+    background-image: url("../images/image1.jpg");
+    width: 50%;
+    height: 50%;
+    /* setting the borders of the div image uaAmer */
+    border-bottom: teal solid 20px;
+    border-top: steelblue dashed 30px;
+    border-left: thick red solid 40px;
+    border-right: tomato dashed 30px;
+    /* setting the outline of the div */
+    outline: blue dashed thick;
+    outline-style: inset;
+    /* setting the margins for this div */
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 10px;
+    /* now we need to set the background  */
+    background-color: chartreuse;
+    background-position-x: 30px;
+    background-position-y: 40px;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    /* now we need to set the padding for this item uaAmer  */
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+
+/* print this is mohamedAlaa amer And we need some people here solved poter */

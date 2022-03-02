@@ -1,0 +1,98 @@
+/*
+so here we need to see what is the z-inedex is uaAmer
+
+
+*/
+
+
+/* So this is the stack uaAmer And we need to see what is this stack  Here's is the answer uaAmer  */
+
+
+/* And you must write any type of the position
+-either it will be position relative or absolute or fixed or sticky or static*/
+
+
+/* div {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+div .amer-divOne {
+    z-index: 200;
+    left: 20px;
+    top: 10px;
+    display: inline-block;
+    position: absolute;
+    background-color: blue;
+}
+
+div .amer-divTwo {
+    top: 20px;
+    display: inline-block;
+    position: absolute;
+    background-color: red;
+}
+
+div .amer-divThree {
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    background-color: yellow;
+} */
+
+
+/*
+ul {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style-type: upper-latin;
+    list-style-type: circle;
+    list-style-position: outside;
+    background-color: red;
+    list-style-image: url("../images/backgroundOne.jpg"); 
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin-left: calc(100% / 10);
+}
+ */
+
+table {
+    color: crimson;
+    text-align: center;
+    width: 100%;
+    border: crimson;
+    border-color: rgb(192, 27, 82);
+    border: 2px solid #EEE;
+}
+
+table td {
+    border-color: crimson;
+    padding: 10px;
+    background-color: teal;
+}
+
+
+/* So this is the way of changing the borders in
+table head body and thead uaAmer this is awesome */
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+thead td {
+    border-left: red;
+    background-color: coral;
+}
+
+
+/* print this is the End of this file uaAmer  */

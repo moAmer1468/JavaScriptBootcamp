@@ -1,0 +1,122 @@
+/* This is how to make counter automatically using counter */
+
+.parent {
+    counter-increment: mohamedAmerCounter;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.user {
+    background-color: #EEE;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+.one {
+    position: relative;
+    background-color: #EEE;
+    padding: 10px;
+    width: 600px;
+    float: left;
+}
+
+
+/* .one .amer-span {
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: teal;
+    right: 0;
+    top: 0;
+} */
+
+
+/* so in order to make the pseudo element appear we have to
+the content uaamer with empty String
+hint we don't need to write the span element in html page after one class*/
+
+.one::after {
+    content: counter(mohamedAmerCounter);
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: teal;
+    right: 0;
+    top: 0;
+}
+
+
+/* so using after and before is powerful tool here  */
+
+
+/*
+.one::before {
+    left: -28px;
+    top: 40%;
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 10px;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid red;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+} */
+
+.one::before {
+    content: "SomeThing";
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+    background-color: #EEE;
+}
+
+ul li {
+    position: relative;
+}
+
+
+/* So this is awesome uaAmer we need to do  this again */
+
+ul li::before {
+    position: absolute;
+    left: -28px;
+    top: 40%;
+    content: "";
+    height: 0px;
+    width: 10px;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid red;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li::before {
+    content: attr(mohamed-attr);
+    position: absolute;
+    left: -28px;
+    top: 40%;
+    content: "";
+    height: 0px;
+    width: 10px;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid red;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+}

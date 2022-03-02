@@ -1,0 +1,42 @@
+/*
+------------MoAmer is here -----------
+now we need to see what is the short hand for this one uaAmer */
+
+
+/*
+div {
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    transition-property: margin-left, margin-top;
+    transition-delay: 0.2s;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+} */
+
+
+/* but i would prefer to write every single property alone */
+
+
+/* so we have the short hand for creating transition
+- transition-duration: 2s;
+- transition-delay:2s ;
+- transition-property: all [That is mean we will take all the directions uaAmer]
+-transition-function: ease-in , ease-out.....
+----------------So these are the values of short-hand way for writing the transition uaAmer
+*/
+
+div {
+    background-color: grey;
+    transition: all 3s 0.3s ease-in;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 180px;
+    height: 180px;
+}

@@ -1,0 +1,66 @@
+/* now we are going to style
+the  link or anchor */
+
+a {
+    text-decoration: none;
+    color: #008000;
+}
+
+a:visited {
+    color: crimson;
+}
+
+
+/* .amer:focus {
+    border-color: red;
+    outline: none;
+} */
+
+input:checked {
+    display: none;
+}
+
+.amer:focus {
+    border: 3px dotted red;
+    outline: none;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+div:empty {
+    border: 10px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+p::first-letter {
+    size: 50px;
+    background-color: coral;
+    color: brown;
+    font-size: 50px;
+}
+
+
+/* instead of putting the first letter in the span element we need to use
+the pseudo elements uaAmer  */
+
+.one::selection {
+    font-size: 60px;
+    background-color: grey;
+    color: hotpink;
+}
+
+.one::first-line {
+    font-weight: bold;
+    color: teal;
+    /* so this is the pseduo elements uaAmer */
+}
+
+
+/*  */

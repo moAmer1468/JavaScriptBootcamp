@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.second-parent {
+    background-color: #eee;
+    height: 500px;
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.second-parent div {
+    line-height: 50px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.amer-div {
+    background-color: green;
+}

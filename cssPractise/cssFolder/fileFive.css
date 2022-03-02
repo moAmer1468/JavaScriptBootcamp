@@ -1,0 +1,34 @@
+.amer-div {
+    /* This will applied to the div element nor paragraph element  */
+    width: 400px;
+    /* padding: 20px; */
+    background-color: #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+}
+
+div p {
+    margin: 0px;
+    padding: inherit;
+    color: inherit;
+    background-color: inherit;
+}
+
+
+/* what is the inheritance , and why we are using it */
+
+.amer-div p {
+    padding: inherit;
+}
+
+span {
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+span p {
+    font-size: inherit;
+}

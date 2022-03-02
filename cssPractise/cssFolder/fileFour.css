@@ -1,0 +1,47 @@
+.amer-block {
+    /* so this is the block element uaAmer
+    so block makes Three great things
+    -first respect padding,width, height, margin
+    -second makes break line
+    -take full width
+    */
+    /*----------------- so inline
+    -Just respect padding , margin from (left and right)
+    -do not break line
+    -elements after and before */
+    /* now we need to see inline block type of elements 
+    inline-block
+    -respect margins, padding,
+    -elements next to others
+    */
+    display: block;
+    background-color: #EEE;
+    color: red;
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+}
+
+.amer-second-block {
+    background-color: rgb(127, 104, 104);
+}
+
+.amer-first-span {
+    background-color: #AAA;
+    padding: 30px;
+    margin: 20px;
+}
+
+.amer-second-span {
+    background-color: chartreuse;
+    padding: 20px;
+    margin: 30px;
+}
+
+.amer-inline-block {
+    background-color: rgb(136, 100, 100);
+    font-size: large;
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+}

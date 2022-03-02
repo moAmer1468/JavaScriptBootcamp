@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* .parent {
+    background-color: yellow;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "head head head head head head head head head head" "nav nav nav cont cont cont cont cont cont cont ";
+    background-color: darkcyan;
+}
+
+.second .amer-header {
+    grid-area: head;
+    background-color: blueviolet;
+}
+
+.amer-nav {
+    grid-area: nav;
+    background-color: darkorange;
+}
+
+.amer-content {
+    grid-area: cont;
+    background-color: chartreuse;
+}
+
+.amer-adv {
+    background-color: cornflowerblue;
+}
+
+.amer-footer {
+    background-color: darkcyan;
+} */
+
+header {
+    color: white;
+    background-color: darkgreen;
+}
+
+.parent {
+    height: 100vh;
+    display: grid;
+    background-color: darkorange;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px auto 50%;
+    grid-template-areas: "nav nav nav nav amer-cont amer-cont amer-cont amer-cont amer-cont amer-cont amer-cont amer-cont amer-cont amer-cont " "foot foot foot foot foot foot foot foot foot foot ";
+}
+
+.amer-content {
+    height: 50%;
+    grid-area: amer-cont;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "sec sec sec sec adv";
+}
+
+.amer-adv {
+    grid-area: adv;
+    background-color: red;
+}
+
+aside {
+    background-color: darkseagreen;
+}
+
+section {
+    grid-area: sec;
+    background-color: deeppink;
+}
+
+footer {
+    background-color: dodgerblue;
+}

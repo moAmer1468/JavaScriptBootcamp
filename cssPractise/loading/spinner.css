@@ -1,0 +1,34 @@
+.amer-spinner div {
+    margin-top: 50px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    animation-name: mohamed-loading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mohamed-loading {
+    0% {
+        opacity: 1;
+        transform: translateY(-40px);
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
+
+.amer-spinner .one {
+    animation-delay: 0.3s;
+}
+
+.amer-spinner .two {
+    animation-delay: .5s;
+}
+
+.amer-spinner .three {
+    animation-delay: .9s;
+}

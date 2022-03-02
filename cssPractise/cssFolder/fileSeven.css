@@ -1,0 +1,35 @@
+.amer-button {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: move;
+    cursor: grab;
+    cursor: pointer;
+    cursor: pointer;
+    /* This is very good and awesome Font */
+}
+
+.amer-float {
+    padding: 20px;
+    background-color: grey;
+    color: black;
+    display: block;
+    float: left;
+}
+
+.parent {
+    background-color: red;
+    padding: 10px;
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EEE;
+    float: right;
+    width: 25%;
+}
+
+.clear {
+    clear: both;
+}

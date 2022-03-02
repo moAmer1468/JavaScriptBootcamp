@@ -1,0 +1,51 @@
+    /* div {
+        width: 200px;
+        height: 200px;
+        background-color: violet;
+        border-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 40px 20px;
+        border-bottom-right-radius: 50px 20px;
+        text-align: center;
+        padding: auto;
+    } */
+    /* we need to use boxShadows uaAmer
+    we have horizontal shadow , vertical shadow , blur ,spread and color
+    */
+    
+    .amer-shadow {
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: yellowgreen;
+        box-shadow: 0px 0px 20px black;
+    }
+    
+    .amer-box-shadow {
+        text-align: center;
+        padding: 30px;
+        margin: 10px;
+        background-color: grey;
+        box-shadow: 0px 0px 20px black;
+    }
+    
+    .parent {
+        width: 600px;
+        overflow: hidden;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #DDD;
+    }
+    
+    .one {
+        background-color: #eee;
+        width: 300px;
+        float: left;
+        padding: 10px;
+        border: 10px solid red;
+        box-sizing: border-box;
+        margin: 100px;
+    }

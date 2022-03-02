@@ -1,0 +1,24 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'noto sans mono';
+    font-weight: bold;
+}
+
+.amer-font {
+    font-size: 16px;
+}
+
+div {
+    font-size: 30px;
+}
+
+div p {
+    font-size: 1rem;
+}
+
+.amer-vm {
+    font-size: 5vmax;
+}

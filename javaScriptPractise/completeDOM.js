@@ -315,4 +315,60 @@
  * ***************lesson 97 ************
  * --------------DOM[CSS tyling and Stylesheets]--------------
  * Before After Prepend Pppend Remove
+ * before [elment | string]
+ * after [element | string]
+ * append [element |string]
+ * prepend [element | String]
+ * remove
+ */
+
+// let amerElement = document.getElementById("amer-append");
+// let amerPara = document.createElement("p");
+// let amerHead = document.createElement("h4");
+// console.log(amerElement);
+
+// //if you want to add someText to the paragraph
+// //you can use this one here
+// amerPara.append("This text is made for only the paragraph uaAmer");
+// amerHead.append("This is text is made of the heading only")
+//     // to add some elements inside this element at the first or at the end
+// amerElement.append("This is the appending text befor the element");
+// amerElement.append(amerPara);
+// amerElement.prepend(amerHead);
+
+// //for adding some elements after and before the This specific element
+// amerElement.after(amerPara);
+// amerElement.before(amerHead);
+// //now we need to delete this element from the DOM completely
+// amerElement.remove();
+
+/**
+ *  * ***************lesson 98 ************
+ * -----------DOM Traversing-------------
+ * next Sibling
+ * previous Sibling
+ * next ElementSibling
+ * previousElementSibling
+ * parentElement
+ */
+// let amerSpan = document.getElementById("span-one");
+
+// console.log(amerSpan);
+// console.log(amerSpan.nextElementSibling);
+// console.log(amerSpan.nextSibling);
+// console.log(amerSpan.parentElement);
+// console.log(amerSpan.nextElementSibling);
+// console.log(amerSpan.parentElement);
+// amerSpan.remove();
+
+
+// amerSpan.onclick = function() {
+//     amerSpan.nextElementSibling.remove();
+//     amerSpan.previousSibling.style = "opacity:0";
+//     amerSpan.parentElement.style = "opacity:0"
+// }
+
+/**
+ *  * ***************lesson 99 ************
+ * -----------DOM cloning-------------
  */

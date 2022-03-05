@@ -371,4 +371,73 @@
 /**
  *  * ***************lesson 99 ************
  * -----------DOM cloning-------------
+ * how to clone  elements
  */
+
+// let myElement = document.getElementById("div-id");
+// let paraElementCloned = document.getElementById("p-id").cloneNode(true); // so true or false will decide whether  the contents 
+// //will be printed or not uaamer
+// let pararElementClonedWithoutContent = document.getElementById("p-id").cloneNode(false);
+// // changing the id of the element
+// paraElementCloned.id = `${paraElementCloned.id}-clone`;
+
+// // console.log(myElement);
+// // console.log(paraElement);
+// console.log(paraElementCloned);
+// myElement.appendChild(paraElementCloned);
+// // myElement.appendChild(pararElementClonedWithoutContent);
+
+/**
+ *  * ***************lesson 100 ************
+ * ------------------addEventListener-------
+ * ---------Top Important -------
+ */
+
+// let par = document.getElementById('p-clone');
+// console.log(par);
+// // par.onclick = one;
+// // par.onclick = two;
+// // // but hint the event is click not onclick
+// function one() {
+//     console.log(`This is the message One`);
+// }
+
+// function two() {
+//     console.log("This is the messge Two");
+// }
+
+// // so here we have a problem that we can't add two methods for single event
+// //here is the power of the eventListeners uaAmer... used to add more than one
+// //function to the sinlge event
+
+// par.addEventListener("click", two);
+// par.addEventListener("click", one);
+// // par.addEventListener("click", "String"); //Error
+let para = document.getElementById('p-clone');
+
+para.onclick = function() {
+        let newpara = para.cloneNode(true);
+        newpara.className = 'cloning'; //we will class for this one called cloning
+        document.body.appendChild(newpara);
+        // console.log(newpara);
+    }
+    //hint this is not exist here for the first time uaAmer
+    // newpara.onclick = function() {
+    //         console.log(`This is not here`);
+    //     }
+    //so here is the purpose of using Eventlisteners
+    //to decide someActions for elements that are not created yet in
+    //the page
+
+//so here preparing the cloned element
+let clonedElement = document.getElementsByClassName(".cloning");
+//adding the click event on this one
+clonedElement.onclick = function() {
+        console.log('I am cloned ');
+    }
+    //adding the Eventlistener to be done in the future after generating the element in the page
+document.addEventListener("click", function(event) {
+    if (event.target.className === 'cloning') {
+        console.log("I am cloned here");
+    }
+});

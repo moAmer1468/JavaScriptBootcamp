@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    background-color: rgb(236, 236, 236);
+    font-family: "Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+}
+
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.website-head-div {
+    justify-content: space-around;
+    background-color: green;
+    width: 100%;
+}

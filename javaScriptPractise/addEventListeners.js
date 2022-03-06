@@ -16,6 +16,8 @@ function one() {
 function two(params) {
     console.log(`This is the function Two`);
 }
+myP.addEventListener("click", one);
+myP.addEventListener("click", two);
 
 myP.addEventListener("click", function(e) {
     console.log(e.target);

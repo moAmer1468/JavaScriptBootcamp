@@ -415,6 +415,7 @@
 // // par.addEventListener("click", "String"); //Error
 let para = document.getElementById('p-clone');
 
+
 para.onclick = function() {
         let newpara = para.cloneNode(true);
         newpara.className = 'cloning'; //we will class for this one called cloning

@@ -1,0 +1,29 @@
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+input:focus {
+    background-color: yellow;
+    border: 2px solid teal;
+    outline: none;
+}
+
+
+/*
+input:checked {
+    display: none;
+} */
+
+:empty {
+    outline: 5px solid yellowgreen;
+    padding: 20px;
+}
+
+.amer-input:focus {
+    color: red;
+    background-color: aqua;
+}
